@@ -28,7 +28,6 @@ import ActivityFeed from "./components/ActivityFeed";
 import SystemScan from "./components/SystemScan";
 import HologramPanel from "./components/HologramPanel";
 import CommandCenter from "./components/CommandCenter";
-import ParticlesBackground from "./components/ParticlesBackground";
 import ExportButton from "./components/ExportButton";
 import Footer from "./components/Footer";
 import SpeedMonitor from "./components/SpeedMonitor";
@@ -185,11 +184,7 @@ function App() {
 
       {/* PARTICLES BACKGROUND */}
 
-      <ParticlesBackground />
-
-      {/* BACKGROUND GLOW */}
-
-      <div className="bg-glow"></div>
+    
 
       {/* NAVBAR */}
 
