@@ -1,0 +1,82 @@
+.speed-card {
+
+  margin-top: 35px;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+
+}
+
+.speed-header {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  color: cyan;
+
+  margin-bottom: 25px;
+
+}
+
+.speed-display {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 15px;
+
+}
+
+.car-icon {
+
+  font-size: 3rem;
+
+  color: cyan;
+
+}
+
+.speed-display h1 {
+
+  font-size: 3rem;
+
+  color: white;
+
+}
+
+.speed-status {
+
+  margin-top: 20px;
+
+  display: inline-block;
+
+  padding: 12px 22px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(0,255,100,0.1);
+
+  color: #00ff99;
+
+  font-weight: bold;
+
+}

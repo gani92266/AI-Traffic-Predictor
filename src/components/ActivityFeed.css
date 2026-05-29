@@ -1,0 +1,89 @@
+.activity-card {
+
+  margin-top: 35px;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+}
+
+.activity-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 25px;
+
+  color: cyan;
+
+}
+
+.activity-feed {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+
+}
+
+.activity-item {
+
+  padding: 16px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255,255,255,0.04);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  animation:
+    fadeIn 0.5s ease;
+
+}
+
+.activity-item span {
+
+  color: #00ffff;
+
+  font-size: 0.9rem;
+
+}
+
+@keyframes fadeIn {
+
+  from {
+
+    opacity: 0;
+
+    transform: translateY(10px);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0px);
+
+  }
+
+}

@@ -1,0 +1,87 @@
+.favorites-card {
+
+  margin-top: 35px;
+
+  padding: 25px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+}
+
+.favorites-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+
+}
+
+.fav-icon {
+
+  color: gold;
+
+  font-size: 1.4rem;
+
+}
+
+.favorites-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(160px, 1fr));
+
+  gap: 16px;
+
+}
+
+.favorite-btn {
+
+  padding: 18px;
+
+  border: none;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+.favorite-btn:hover {
+
+  transform: translateY(-5px);
+
+  background:
+    rgba(0,255,255,0.08);
+
+  box-shadow:
+    0 0 20px rgba(0,255,255,0.2);
+
+}

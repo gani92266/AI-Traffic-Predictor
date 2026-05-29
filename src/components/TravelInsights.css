@@ -1,0 +1,52 @@
+.insights-card {
+
+  margin-top: 35px;
+
+  padding: 25px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+}
+
+.insights-card h2 {
+
+  margin-bottom: 20px;
+
+  color: cyan;
+
+}
+
+.insight-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 18px;
+
+  padding: 15px;
+
+  border-radius: 15px;
+
+  background:
+    rgba(255,255,255,0.04);
+
+}
+
+.insight-item svg {
+
+  color: cyan;
+
+  font-size: 1.2rem;
+
+}

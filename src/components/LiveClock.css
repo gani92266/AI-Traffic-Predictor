@@ -1,0 +1,47 @@
+.clock-card {
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 25px;
+
+  padding: 25px;
+
+  margin-top: 35px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  backdrop-filter: blur(12px);
+
+  transition: 0.3s;
+
+  box-shadow:
+    0 0 10px rgba(0,255,255,0.08),
+    0 0 30px rgba(0,255,255,0.05);
+}
+
+.clock-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+.clock-icon {
+  font-size: 2rem;
+
+  color: cyan;
+}
+
+.clock-card h2 {
+  color: cyan;
+
+  margin-bottom: 8px;
+}
+
+.clock-card p {
+  font-size: 1.3rem;
+
+  font-weight: bold;
+}

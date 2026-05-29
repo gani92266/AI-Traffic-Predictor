@@ -1,0 +1,60 @@
+.weather-card {
+
+  margin-top: 35px;
+
+  padding: 25px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+}
+
+.weather-card h2 {
+
+  margin-bottom: 20px;
+
+  color: cyan;
+
+}
+
+.forecast-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(180px, 1fr));
+
+  gap: 18px;
+
+}
+
+.forecast-item {
+
+  padding: 20px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255,255,255,0.04);
+
+  text-align: center;
+
+  transition: 0.3s;
+
+}
+
+.forecast-item:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 0 20px rgba(0,255,255,0.15);
+
+}

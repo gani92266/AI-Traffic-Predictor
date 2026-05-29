@@ -1,0 +1,89 @@
+.dashboard {
+  margin-bottom: 35px;
+}
+
+.map-card {
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 25px;
+
+  padding: 20px;
+
+  backdrop-filter: blur(12px);
+}
+
+.map-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: cyan;
+
+  margin-bottom: 20px;
+}
+
+.real-map {
+  width: 100%;
+  height: 500px;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.leaflet-container {
+  border-radius: 20px;
+}
+.loading-map {
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: cyan;
+
+  font-size: 1.5rem;
+}
+.map-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+
+}
+
+.satellite-btn {
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #00ffff,
+      #0077ff
+    );
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+.satellite-btn:hover {
+
+  transform: scale(1.05);
+
+}

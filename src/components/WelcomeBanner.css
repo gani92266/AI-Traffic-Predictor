@@ -1,0 +1,41 @@
+.welcome-banner {
+
+  margin-top: 25px;
+
+  padding: 35px;
+
+  border-radius: 25px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(0,255,255,0.08),
+      rgba(0,119,255,0.08)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  text-align: center;
+
+  backdrop-filter: blur(10px);
+
+}
+
+.welcome-banner h1 {
+
+  font-size: 2.8rem;
+
+  color: white;
+
+}
+
+.welcome-banner p {
+
+  margin-top: 12px;
+
+  color: #bbb;
+
+  font-size: 1.1rem;
+
+}

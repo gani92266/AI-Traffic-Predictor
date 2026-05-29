@@ -1,0 +1,62 @@
+.internet-card {
+
+  margin-top: 35px;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+
+}
+
+.internet-header {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  color: cyan;
+
+  margin-bottom: 20px;
+
+}
+
+.internet-card h1 {
+
+  font-size: 3rem;
+
+  color: white;
+
+}
+
+.internet-status {
+
+  margin-top: 20px;
+
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(0,255,100,0.1);
+
+  color: #00ff99;
+
+  font-weight: bold;
+
+}

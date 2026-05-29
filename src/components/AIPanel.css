@@ -1,0 +1,61 @@
+.ai-panel {
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 25px;
+
+  padding: 25px;
+
+  margin-top: 35px;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 0 10px rgba(0,255,255,0.08),
+    0 0 30px rgba(0,255,255,0.05);
+}
+
+.ai-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.ai-icon {
+  color: cyan;
+
+  font-size: 2rem;
+}
+
+.ai-header h2 {
+  color: cyan;
+}
+
+.ai-message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 15px;
+
+  margin-top: 15px;
+
+  border-radius: 15px;
+
+  background: rgba(255,255,255,0.04);
+
+  transition: 0.3s;
+}
+
+.ai-message:hover {
+  transform: translateX(5px);
+
+  background: rgba(0,255,255,0.08);
+}
+
+.mini-icon {
+  color: cyan;
+}

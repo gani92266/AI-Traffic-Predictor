@@ -1,0 +1,161 @@
+.hologram-card {
+
+  margin-top: 35px;
+
+  padding: 40px;
+
+  border-radius: 30px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(0,255,255,0.15);
+
+  backdrop-filter: blur(18px);
+
+  text-align: center;
+
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+.core-container {
+
+  position: relative;
+
+  width: 180px;
+
+  height: 180px;
+
+  margin: auto;
+
+}
+
+.core-ring {
+
+  position: absolute;
+
+  width: 180px;
+
+  height: 180px;
+
+  border-radius: 50%;
+
+  border:
+    3px solid cyan;
+
+  animation:
+    rotateCore 8s linear infinite;
+
+  box-shadow:
+    0 0 25px cyan;
+
+}
+
+.core-ring.second {
+
+  width: 130px;
+
+  height: 130px;
+
+  top: 25px;
+
+  left: 25px;
+
+  animation-direction: reverse;
+
+}
+
+.core-center {
+
+  position: absolute;
+
+  width: 70px;
+
+  height: 70px;
+
+  border-radius: 50%;
+
+  background: cyan;
+
+  top: 55px;
+
+  left: 55px;
+
+  filter: blur(2px);
+
+  box-shadow:
+    0 0 40px cyan;
+
+}
+
+.hologram-card h2 {
+
+  margin-top: 30px;
+
+  color: white;
+
+}
+
+.hologram-card p {
+
+  margin-top: 12px;
+
+  color: #aaa;
+
+}
+
+.holo-status {
+
+  margin-top: 20px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 12px 20px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(0,255,100,0.08);
+
+  color: #00ff99;
+
+}
+
+.holo-status span {
+
+  width: 12px;
+
+  height: 12px;
+
+  border-radius: 50%;
+
+  background: #00ff99;
+
+  box-shadow:
+    0 0 15px #00ff99;
+
+}
+
+@keyframes rotateCore {
+
+  from {
+
+    transform: rotate(0deg);
+
+  }
+
+  to {
+
+    transform: rotate(360deg);
+
+  }
+
+}

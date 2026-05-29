@@ -1,0 +1,126 @@
+.history-card {
+
+  margin-top: 35px;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 25px;
+
+  padding: 25px;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 0 10px rgba(0,255,255,0.08),
+    0 0 30px rgba(0,255,255,0.05);
+
+}
+
+.history-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+
+}
+
+.history-icon {
+
+  color: cyan;
+
+  font-size: 1.7rem;
+
+}
+
+.history-header h2 {
+
+  color: cyan;
+
+}
+
+.history-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 14px;
+
+  margin-top: 12px;
+
+  border-radius: 15px;
+
+  background: rgba(255,255,255,0.04);
+
+  transition: 0.3s;
+
+}
+
+.history-item:hover {
+
+  transform: translateX(5px);
+
+  background: rgba(0,255,255,0.08);
+
+}
+
+.mini-history-icon {
+
+  color: cyan;
+
+}
+
+.empty-history {
+
+  color: #aaa;
+
+}
+.history-title {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+}
+
+.clear-history {
+
+  width: 45px;
+
+  height: 45px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255,0,0,0.1);
+
+  color: red;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  font-size: 1rem;
+
+}
+
+.clear-history:hover {
+
+  transform: scale(1.1);
+
+  background:
+    rgba(255,0,0,0.2);
+
+}

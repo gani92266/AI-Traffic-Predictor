@@ -1,0 +1,56 @@
+.footer {
+  margin-top: 50px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(255,255,255,0.1);
+
+  color: #aaa;
+}
+
+.footer-logo {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 15px;
+}
+
+.footer-robot {
+  color: cyan;
+
+  font-size: 1.8rem;
+}
+
+.footer-logo h2 {
+  color: cyan;
+}
+
+.footer-icons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 20px;
+
+  font-size: 1.5rem;
+}
+
+.footer-icons svg {
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.footer-icons svg:hover {
+  color: cyan;
+
+  transform: translateY(-5px);
+}

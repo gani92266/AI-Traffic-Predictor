@@ -1,0 +1,75 @@
+.device-card {
+
+  margin-top: 35px;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+}
+
+.device-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 25px;
+
+  color: cyan;
+
+}
+
+.device-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+}
+
+.device-item {
+
+  padding: 20px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255,255,255,0.04);
+
+}
+
+.device-item h3 {
+
+  color: white;
+
+  margin-bottom: 10px;
+
+}
+
+.device-item p {
+
+  color: #aaa;
+
+  word-break: break-word;
+
+}
+
+.browser-text {
+
+  font-size: 0.8rem;
+
+}

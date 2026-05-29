@@ -1,0 +1,76 @@
+.terminal-card {
+
+  margin-top: 35px;
+
+  padding: 30px;
+
+  border-radius: 25px;
+
+  background: #02050d;
+
+  border:
+    1px solid rgba(0,255,255,0.15);
+
+  box-shadow:
+    0 0 25px rgba(0,255,255,0.08);
+
+  overflow: hidden;
+
+}
+
+.terminal-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: cyan;
+
+  margin-bottom: 20px;
+
+}
+
+.terminal-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+
+  font-family: monospace;
+
+}
+
+.terminal-body p {
+
+  color: #00ff99;
+
+  animation:
+    terminalGlow 2s infinite;
+
+}
+
+@keyframes terminalGlow {
+
+  0% {
+
+    opacity: 0.6;
+
+  }
+
+  50% {
+
+    opacity: 1;
+
+  }
+
+  100% {
+
+    opacity: 0.6;
+
+  }
+
+}

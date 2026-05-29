@@ -1,0 +1,47 @@
+.network-banner {
+
+  width: 100%;
+
+  padding: 15px;
+
+  border-radius: 18px;
+
+  margin-top: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  font-weight: bold;
+
+  backdrop-filter: blur(10px);
+
+}
+
+.online {
+
+  background:
+    rgba(0,255,100,0.1);
+
+  border:
+    1px solid rgba(0,255,100,0.3);
+
+  color: #00ff99;
+
+}
+
+.offline {
+
+  background:
+    rgba(255,0,0,0.1);
+
+  border:
+    1px solid rgba(255,0,0,0.3);
+
+  color: #ff4444;
+
+}
